@@ -1,0 +1,222 @@
+
+body{
+    
+    font-family:arial, helvetica, sans-serif;
+    margin: 0;
+    
+    background:url(inventario5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    box-sizing:border-box;
+}
+.contenedor{
+    width:100%;
+    padding: 30px;
+
+}
+.formulario{
+    background-color: rgb(180, 186, 191);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align:center;
+    color: #252930;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color: #252930;
+    font-size :  20px;
+    font-weight: 300;
+}
+input[type="text"],
+input[type="nombre completo"]{
+    font: size 50px;
+    width: 440px;
+    padding: 10px;
+    border:none;
+}
+
+
+input[type="number"],
+input[type="cedula"]{
+    font: size 50px;
+    width: 440px;
+    padding: 10px;
+    border:none;
+}
+
+input[type="text"],
+input[type="password"]{
+    font: size 50px;
+    width: 440px;
+    padding: 10px;
+    border:none;
+}
+input-contenedor{
+    margin-bottom: 15px;
+    border:1px solid #aaa;
+
+}
+.con{
+    min-width: 50px;
+    text-align:center;
+    color:rgb(124, 115, 115);
+
+}
+.button{
+    border:none;
+    width: 100%;
+    color:white;
+    font: size 20px;
+    background: #252930;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor:poiner;
+
+}
+.button:hovewr{
+    background: rgb(217, 236, 237);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color:#252930;
+    font-weight:600;
+
+}
+.link:horver{
+    color: cadetblue;
+
+}
+/*about*/
+.contenedor-sobre-nosotros{
+    display:flex;
+    justify-content:space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+    border-radius:20%;
+
+}
+.sobre-nosotros .contenido-testos{
+    width:48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #646b78;
+    color: #fff;
+    border-radius: 50%;
+    display: incline-block;
+    text-align: center;
+    width:30px;
+    height:60px;
+    padding:5px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0, .5);
+    
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+}
+nav{
+    text-align: right;
+    padding: 10px 50px 0 0;
+}
+nav > a{
+    color: rgb(82, 77, 77);
+    font-weight:300;
+    text-decoration:none; 
+    margin-right:10px;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+nav{
+    text-align: right;
+    padding: 10px 50px 0 0;
+}
+nav > i{
+    color: rgb(82, 77, 77);
+    font-weight:300;
+    text-decoration:none; 
+    margin-right:10px;
+}
+nav > a{
+    color: rgb(82, 77, 77);
+    font-weight:300;
+    text-decoration:none; 
+    margin-right:10px;
+    
+}
+nav > i:hover{
+    text-decoration: underline;
+}
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin:auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2px;
+    }
+}
+        .header{
+            text-align:center;
+            height:300px;
+            padding: 12px;
+
+        }
+        .avatar{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .user-name{
+            font-size: 18px;
+            margin-top: 14px;
+            background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fp4.wallpaperbetter.com%2Fwallpaper%2F444%2F1007%2F789%2Fyellow-bars-fade-wallpaper-preview.jpg&imgrefurl=https%3A%2F%2Fwww.wallpaperbetter.com%2Fes%2Fhd-wallpaper-theyn&tbnid=YpfGMASH3-x-zM&vet=12ahUKEwjG_4r1wOf3AhWbcDABHQroA7QQMygLegUIARDqAQ..i&docid=zeJlP-f1Ep5ctM&w=728&h=289&q=barras%20amarrillas&ved=2ahUKEwjG_4r1wOf3AhWbcDABHQroA7QQMygLegUIARDqAQ");
+            color: #fff;
+        }
+        .socials{
+            list-style:none;
+            text-align: center;
+            padding: 0;
+        }
+        .socials li{
+            display: inline-block;
+            margin: 5px;
+        }
+        a {
+            text-decoration:none;
+            color:rgb(0, 0, 0);
+
+        }
+        a:hover{
+            color:rgb(255, 251, 251);
+        }
+        .icon{
+            width:16px;
+            height:16px;
+            display:inline-block;
+            background-size: cover;
+        }
+        .about{
+            padding: 10px;
+        }
+        .about h3{
+            color:rgb(248, 237, 40);
+            font-size: 25px;
+        }
+        .about p{
+            color:rgb(23, 22, 22);
+            font-size: 20px;
+        }
