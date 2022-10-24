@@ -14,7 +14,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="shortcut icon" href="img/scarmin1.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 
@@ -32,9 +32,8 @@
     </div>
 </nav>
 
-    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-5.36,24.00 C91.13,207.55 400.39,-50.00 514.39,126.63 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgba(255, 204, 0, 0.762);"></path></svg></div>
+   
     <header>
-    <h1>Productos Defectuosos</h1>
     <form class="formulario4">
         <h1>Producto Dañados o Defectuosos</h1>
         <div class="contenedor2">
@@ -52,7 +51,9 @@
         <option value="Vajilla">Vajilla</option>
         <option value="Vasos de Cristal">Vasos de Cristal</option>
         <option value="Cubiertos">Cubiertos</option>
-    </select> 
+    </select>
+
+    
     <div class="contenedor2">
         <div class="input-contenedor2">
             
@@ -138,6 +139,6 @@
    
 
     </header>
-    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgba(255, 204, 0, 0.762);"></path></svg></div>
+    
 </body>
 </html>

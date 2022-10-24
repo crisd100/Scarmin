@@ -27,18 +27,21 @@
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
 <body>
+
  <nav class="nav-extended">
     <div class="nav-wrapper"style="background-color: black;">
       <a href="#!" class="brand-logo">Scarmin</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="./index.php">Inicio</a></li>
+       <li><a href="./index.php">Inicio</a></li>
         <li><a href="./totalproductos.php">Total De Productos</a></li>
-        <li><a>Agregar Productos</a></li>
-        <li><a>Productos A Salir</a></li>
-        <li><a>Productos Defectuosos</a></li>
-        <li><a href="./configuracion.php">Configuracion</a></li>
+        <li><a href="./Ingresos.php">Agregar Productos</a></li>
+        <li><a href="./productosalir.php">Productos A Salir</a></li>
+        <li><a href="./productosdefectuosos.php">Productos Defectuosos</a></li>
+        <li><a href="./Configuracion.php">Configuración</a></li>
       </ul>
     </div>
+
+
     <div class="nav-content">
       <div align="center"style="background-color: #3B3B3B;"><strong><span class="nav-title"><em><strong>Total De Productos</strong></em></span>    </strong></div>
     </div>

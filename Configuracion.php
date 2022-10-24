@@ -22,7 +22,8 @@
 
 </head>
 
-<body><nav>
+<body>
+<nav>
     <div class="nav-wrapper" style="background-color: black;">
       <a href="#" class="brand-logo">Scarmin</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -31,11 +32,12 @@
         <li><a href="./Ingresos.php">Agregar Productos</a></li>
         <li><a href="./productosalir.php">Productos A Salir</a></li>
         <li><a href="./productosdefectuosos.php">Productos Defectuosos</a></li>
-        <li><a href="./Configuracion.php" >Configuracion</a></li>
+        <li><a href="./Configuracion.php">Configuración</a></li>
       </ul>
     </div>
 </nav>
-    
+
+
 <div class="padre">
     <section Class="Nav">
         <nav>

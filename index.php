@@ -30,6 +30,7 @@ body {
       </ul>
     </div>
 </nav>
+
 <img src="img/21.png" width="498" height="483" hspace="100" vspace="100"><img src="img/1.png" width="564" height="350" vspace="150">
 
 <footer class="page-footer" style="background-color: black;">

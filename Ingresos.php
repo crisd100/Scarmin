@@ -27,7 +27,7 @@
       <a href="#" class="brand-logo">Scarmin</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><a href="./index.php">Inicio</a></li>
-        <li><a href="./totalproductos.php">Total De Productos</a></li>
+        <li><a href="./totalproductos.php">Total de Productos</a></li>
         <li><a href="./Ingresos.php">Agregar Productos</a></li>
         <li><a href="./productosalir.php">Productos A Salir</a></li>
         <li><a href="./productosdefectuosos.php">Productos Defectuosos</a></li>
